@@ -5,7 +5,6 @@ body {
     padding: 0;
     background-color: #f4f4f9; /* Fallback background color */
     color: #333;
-    background: linear-gradient(to bottom right, #000000, #5B92E5); /* Gradient from black to light blue */
     line-height: 1.6;
 }
 
@@ -33,7 +32,8 @@ nav {
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: center; /* Center align items */
+    justify-content: space-between; /* Distribute items between the edges */
+    align-items: center; /* Center align items vertically */
     margin: 0;
     padding: 0;
 }
@@ -70,6 +70,19 @@ nav ul li a:hover {
 
 .nav-links li {
     margin: 0 0.5em;
+}
+
+/* Positioning Home and Social links */
+.nav-links .nav-home {
+    margin-right: 1em; /* Margin for spacing */
+    font-weight: bold;
+    color: orange;
+}
+
+.nav-links .nav-social {
+    margin-left: 1em; /* Margin for spacing */
+    font-weight: bold;
+    color: orange;
 }
 
 /* Content Styles */
