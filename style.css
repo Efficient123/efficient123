@@ -18,7 +18,7 @@ p {
 
 /* Navbar Styles */
 nav {
-    background-image: url('./20240614_200247.jpg'); /* Background image for navbar */
+    background: linear-gradient(to bottom right, #000000, #5B92E5), url('./20240614_200247.jpg'); /* Gradient and image combined */
     background-size: cover;
     color: white;
     padding: 1em 0;
