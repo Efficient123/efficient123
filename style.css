@@ -3,7 +3,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom right, #0056b3, #ffffff); /* Dark blue to white gradient */
+    background-color: #f4f4f9; /* Fallback background color */
     color: #333;
     line-height: 1.6;
 }
@@ -75,7 +75,7 @@ nav ul li a:hover {
     max-width: 800px;
     margin: 2em auto;
     padding: 2em;
-    background-color: white;
+    background: linear-gradient(to bottom right, #0056b3, #ffffff); /* Dark blue to white gradient */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -83,10 +83,12 @@ nav ul li a:hover {
 h1 {
     font-size: 2.5em;
     margin-bottom: 0.5em;
+    color: white; /* Example of text color change in content area */
 }
 
 p {
     font-size: 1.2em;
+    color: #eee; /* Example of text color change in content area */
 }
 
 /* Responsive Design */
