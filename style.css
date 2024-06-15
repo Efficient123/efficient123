@@ -6,7 +6,6 @@ body {
     background-color: #f4f4f9; /* Fallback background color */
     color: #333;
     line-height: 1.6;
-    background: linear-gradient(to bottom right, red, orange);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -75,7 +74,7 @@ nav ul li a:hover {
 /* Content Styles */
 #content {
     max-width: 800px;
-    margin: 2em auto;
+    margin: 0 auto; /* Removed top and bottom margin */
     padding: 2em;
     background: linear-gradient(to bottom right, #000000, #5B92E5); /* Gradient from black to light blue */
     border-radius: 10px;
