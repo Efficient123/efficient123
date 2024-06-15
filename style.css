@@ -14,7 +14,6 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
     margin: 1em 0;
-    color: black;
 }
 
 /* Navbar Styles */
@@ -76,7 +75,7 @@ nav ul li a:hover {
     max-width: 800px;
     margin: 2em auto;
     padding: 2em;
-    background: linear-gradient(to bottom right, #0056b3, #ffffff); /* Dark blue to white gradient */
+    background: linear-gradient(to bottom right, #000000, #5B92E5); /* Dark blue to white gradient */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
