@@ -74,13 +74,15 @@ nav ul li a:hover {
 
 /* Positioning Home and Social links */
 .nav-links .nav-home {
-    margin-right: 1em; /* Margin for spacing */
+    margin-right: auto; /* Push to the bottom left */
+    margin-left: 1em; /* Additional margin for spacing */
     font-weight: bold;
     color: orange;
 }
 
 .nav-links .nav-social {
-    margin-left: 1em; /* Margin for spacing */
+    margin-left: auto; /* Push to the bottom right */
+    margin-right: 1em; /* Additional margin for spacing */
     font-weight: bold;
     color: orange;
 }
