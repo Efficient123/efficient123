@@ -5,6 +5,7 @@ body {
     padding: 0;
     background-color: #f4f4f9; /* Fallback background color */
     color: #333;
+    background: linear-gradient(to bottom right, #000000, #5B92E5); /* Gradient from black to light blue */
     line-height: 1.6;
 }
 
