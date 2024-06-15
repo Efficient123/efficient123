@@ -2,8 +2,7 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
-    padding: 0;
-    background-color: yellow; /* Fallback background color */
+    padding: 0; /* Fallback background color */
     color: #333;
     line-height: 1.6;
 }
@@ -89,7 +88,6 @@ nav ul li a:hover {
     margin: 0 auto; /* Removed top and bottom margin */
     padding: 2em;
     background: linear-gradient(to bottom right, #000000, #5B92E5); /* Gradient from black to light blue */
-    border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     color: white; /* Text color in content area */
 }
