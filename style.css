@@ -18,7 +18,8 @@ p {
 
 /* Navbar Styles */
 nav {
-    background-color: #007BFF;
+    background-image: url('./20240614_200247.jpg'); /* Background image for navbar */
+    background-size: cover;
     color: white;
     padding: 1em 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -75,7 +76,7 @@ nav ul li a:hover {
     max-width: 800px;
     margin: 2em auto;
     padding: 2em;
-    background: linear-gradient(to bottom right, #000000, #5B92E5); /* Dark blue to white gradient */
+    background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
