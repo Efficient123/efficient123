@@ -6,6 +6,7 @@ body {
     background-color: #f4f4f9; /* Fallback background color */
     color: #333;
     line-height: 1.6;
+    background: linear-gradient(to bottom right, red, orange);
 }
 
 h1, h2, h3, h4, h5, h6 {
