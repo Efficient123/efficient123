@@ -25,12 +25,13 @@ nav {
     position: sticky;
     top: 0;
     z-index: 1000;
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Center align items */
     margin: 0;
     padding: 0;
 }
@@ -43,11 +44,30 @@ nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    transition: color 0.3s ease;
+    padding: 1em; /* Increase padding for better click area */
+    border-radius: 8px; /* Rounded corners */
+    display: inline-block;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition for background color and transform */
 }
 
 nav ul li a:hover {
-    color: #ffdb4d;
+    background-color: rgba(255, 255, 255, 0.1); /* Lighten background on hover */
+    transform: translateY(-2px); /* Add slight upward lift on hover */
+}
+
+.nav-logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-right: auto; /* Push logo to the left */
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    margin: 0 0.5em;
 }
 
 /* Content Styles */
@@ -67,58 +87,6 @@ h1 {
 
 p {
     font-size: 1.2em;
-}
-
-/* Form Styles */
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 2em;
-}
-
-input, textarea {
-    width: 100%;
-    max-width: 600px;
-    padding: 0.75em;
-    margin: 0.5em 0;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    font-size: 1em;
-}
-
-button {
-    padding: 0.75em 1.5em;
-    color: white;
-    background-color: #007BFF;
-    border: none;
-    border-radius: 5px;
-    font-size: 1em;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-button:hover {
-    background-color: #0056b3;
-}
-
-/* Feedback List Styles */
-.feedback-list {
-    margin-top: 2em;
-    text-align: left;
-}
-
-.feedback-item {
-    background-color: #f9f9f9;
-    padding: 1em;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    margin-bottom: 1em;
-}
-
-.feedback-item strong {
-    display: block;
-    margin-bottom: 0.5em;
 }
 
 /* Responsive Design */
